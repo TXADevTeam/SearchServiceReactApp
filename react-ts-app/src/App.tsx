@@ -7,13 +7,14 @@ import {
 import { Jumbotron, Container, Row, Col, Button, InputGroup, FormControl, Table } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NaviBar from './Components/Navbar';
+import Ccomponent from './Ccomponent';
 
 import { Home } from './Home';
 // import {Users} from './Users';
 // import {About} from './About';
 
 function App() {
-  
+
   const handleSearch = () => (
     alert('you clicked me')
 
@@ -51,7 +52,8 @@ function App() {
         </Jumbotron>
       </Container>
       <Container>
-        <Table bordered hover>
+        <Ccomponent />
+        {/* <Table bordered hover>
           <thead className="thead-light">
             <tr>
               <th>#</th>
@@ -76,7 +78,7 @@ function App() {
               <td>@twitter</td>
             </tr>
           </tbody>
-        </Table>
+        </Table> */}
       </Container>
     </>
   );
