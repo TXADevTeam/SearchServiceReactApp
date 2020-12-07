@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SearchService.Mock/1.0.0": {
+        "dependencies": {
+          "SearchService.Model": "1.0.0"
+        },
+        "runtime": {
+          "SearchService.Mock.dll": {}
+        }
+      },
+      "SearchService.Model/1.0.0": {
+        "runtime": {
+          "SearchService.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SearchService.Mock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SearchService.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

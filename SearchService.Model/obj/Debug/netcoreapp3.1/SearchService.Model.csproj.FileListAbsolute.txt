@@ -1,0 +1,8 @@
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\bin\Debug\netcoreapp3.1\SearchService.Model.deps.json
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\bin\Debug\netcoreapp3.1\SearchService.Model.dll
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\bin\Debug\netcoreapp3.1\SearchService.Model.pdb
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\obj\Debug\netcoreapp3.1\SearchService.Model.AssemblyInfoInputs.cache
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\obj\Debug\netcoreapp3.1\SearchService.Model.AssemblyInfo.cs
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\obj\Debug\netcoreapp3.1\SearchService.Model.csproj.CoreCompileInputs.cache
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\obj\Debug\netcoreapp3.1\SearchService.Model.dll
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\obj\Debug\netcoreapp3.1\SearchService.Model.pdb

@@ -1,0 +1,12 @@
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\bin\Debug\netcoreapp3.1\SearchService.Mock.deps.json
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\bin\Debug\netcoreapp3.1\SearchService.Mock.dll
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\bin\Debug\netcoreapp3.1\SearchService.Mock.pdb
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\bin\Debug\netcoreapp3.1\SearchService.Model.dll
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\bin\Debug\netcoreapp3.1\SearchService.Model.pdb
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\obj\Debug\netcoreapp3.1\SearchService.Mock.csprojAssemblyReference.cache
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\obj\Debug\netcoreapp3.1\SearchService.Mock.AssemblyInfoInputs.cache
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\obj\Debug\netcoreapp3.1\SearchService.Mock.AssemblyInfo.cs
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\obj\Debug\netcoreapp3.1\SearchService.Mock.csproj.CoreCompileInputs.cache
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\obj\Debug\netcoreapp3.1\SearchService.Mock.csproj.CopyComplete
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\obj\Debug\netcoreapp3.1\SearchService.Mock.dll
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Mock\obj\Debug\netcoreapp3.1\SearchService.Mock.pdb
