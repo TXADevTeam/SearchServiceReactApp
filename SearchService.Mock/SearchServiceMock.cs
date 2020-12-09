@@ -8,13 +8,13 @@ using SearchService.Model.Models;
 
 namespace SearchService.Mock
 {
-    public class SearchServiceMock : ISearchService
+    public class SearchServiceMock 
     {
-        private readonly SearchResult[] _data;
+        public readonly SearchResult[] data;
 
         public SearchServiceMock()
         {
-            _data = new[]
+            data = new[]
             {
                 new SearchResult() { 
                     Id = Guid.NewGuid().ToString(),
@@ -52,36 +52,6 @@ namespace SearchService.Mock
                     Created = DateTime.Now,
                     MainPhoto = $"/images/venue5.png"}
             };
-        }
-
-        public SearchServiceMock(IEnumerable<SearchResult> data)
-        {
-            _data = data?.ToArray() ?? throw new ArgumentNullException(nameof(data));
-        }
-
-        public IReadOnlyCollection<SearchResult> GetSearchResult(string word)
-        {
-            if (word == null)
-            {
-                throw new ArgumentNullException(nameof(word));
-            }
-
-            if (word.Length == 0)
-            {
-                throw new ArgumentException("Should not be empty.", nameof(word));
-            }
-
-            return _data
-                .Where(w => w.Name.Contains(word, StringComparison.OrdinalIgnoreCase) || 
-                            w.Description.Contains(word, StringComparison.OrdinalIgnoreCase) || 
-                            w.Address.Contains(word, StringComparison.OrdinalIgnoreCase))
-                .ToArray();
-        }
-
-        public Task<IReadOnlyCollection<SearchResult>> GetSearchResultAsync(string word, CancellationToken cancellationToken)
-        {
-            var result = GetSearchResult(word);
-            return Task.FromResult(result);
-        }
+        }       
     }
 }

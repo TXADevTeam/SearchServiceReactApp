@@ -6,3 +6,4 @@ C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\o
 C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\obj\Debug\netcoreapp3.1\SearchService.Model.csproj.CoreCompileInputs.cache
 C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\obj\Debug\netcoreapp3.1\SearchService.Model.dll
 C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\obj\Debug\netcoreapp3.1\SearchService.Model.pdb
+C:\Users\rashi\Dropbox\Education\THA\SearchServiceReactApp\SearchService.Model\obj\Debug\netcoreapp3.1\SearchService.Model.csprojAssemblyReference.cache

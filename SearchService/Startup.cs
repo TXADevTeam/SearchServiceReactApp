@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using SearchService.API;
+using SearchService.API.Services;
 using SearchService.Mock;
 using SearchService.Model;
 
@@ -20,9 +21,9 @@ namespace SearchService
         // This method gets called by the runtime. Use this method to add services to the container.
         public static void ConfigureServices(IServiceCollection services)
         {
+            SearchServiceMock mock = new SearchServiceMock();
             services.AddControllers();
-            services.AddScoped((System.Func<System.IServiceProvider, ISearchService>)(options => new SearchServiceMock()));
-            //services.AddScoped((System.Func<System.IServiceProvider, ISearchService>)(options => new SearchServiceMock()));
+            services.AddSingleton((System.Func<System.IServiceProvider, ISearchService>)(options => new SearchServiceRealizer(mock.data)));
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo

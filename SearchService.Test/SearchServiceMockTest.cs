@@ -1,14 +1,9 @@
 ﻿using System;
 using Xunit;
-using SearchService.API;
 using SearchService.Model.Models;
 using SearchService.Mock;
-using SearchService.API.Controllers;
-using FakeItEasy;
-using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
-using System.Threading;
 using System.Collections.Generic;
+using SearchService.API.Services;
 
 namespace SearchService.Test
 {
@@ -17,15 +12,17 @@ namespace SearchService.Test
         [Fact]
         public void CheckConstructor()
         {
-            var service = new SearchServiceMock();
+            SearchServiceMock mock = new SearchServiceMock();
+            var service = new SearchServiceRealizer(mock.data);
             Assert.NotNull(service);
-            Assert.Throws<ArgumentNullException>(() => new SearchServiceMock(null));
+            Assert.Throws<ArgumentNullException>(() => new SearchServiceRealizer(null));
         }
 
         [Fact]
         public void CheckOnExceptions()
         {
-            var service = new SearchServiceMock();
+            SearchServiceMock mock = new SearchServiceMock();
+            var service = new SearchServiceRealizer(mock.data);
             Assert.Throws<ArgumentException>(() => service.GetSearchResult(string.Empty));
             Assert.Throws<ArgumentNullException>(() => service.GetSearchResult(null));
         }
@@ -34,7 +31,7 @@ namespace SearchService.Test
         public void CheckOnPositiveResults()
         {
             IEnumerable<SearchResult> data = FakeData();
-            var service = new SearchServiceMock(data);
+            var service = new SearchServiceRealizer(data);
             var result = service.GetSearchResult(Guid.NewGuid().ToString());
             var result2 = service.GetSearchResult("ку");
             Assert.Empty(result);
